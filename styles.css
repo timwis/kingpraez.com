@@ -1,0 +1,27 @@
+body {
+  background: #dcdcdc;
+  margin-bottom: 100px;
+}
+
+#splash-container {
+  width: 720px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-image: url('img/splash.jpg');
+  background-repeat: no-repeat;
+  background-position-y: -80px;
+  border-radius: 50px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
