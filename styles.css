@@ -13,15 +13,3 @@ body {
   background-position-y: -80px;
   border-radius: 50px;
 }
-
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media (min-width: 768px) {
-  .container {
-    width: 720px;
-  }
-}
