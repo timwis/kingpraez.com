@@ -3,6 +3,13 @@ body {
   margin-bottom: 100px;
 }
 
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
 #splash-container {
   width: 720px;
   height: 400px;
